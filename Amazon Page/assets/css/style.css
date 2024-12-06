@@ -17,14 +17,17 @@ html {
 
 .nav1 {
     background: #364759;
-    padding-left: 1.5em;
+    padding: 0.7em 1.5em;
 }
 
 .nav1 a {
     color: white;
     text-decoration: none;
+}
+
+.nav1 li {
     display: inline-block;
-    padding: 0.7em;
+    padding: 0 0.5em;
 }
 
 /* Main */
@@ -137,6 +140,10 @@ p {
 
 footer {
     text-align: center;
+}
+
+footer .nav1 {
+    padding: 1.1em;
 }
 
 footer .nav1 a {
